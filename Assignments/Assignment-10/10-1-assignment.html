@@ -68,30 +68,32 @@
             width: 200px;
             margin-left: 100px;
         }
-    
-        .card1 {
-            background-color: #571212;
-            grid-column: 1/2;
-            grid-row: 2/3;
-            text-align: start;
-            padding: 20px;
-        }
-   
-        .card2 {
-            background-color: #571212;
-            grid-column: 1/2;
-            grid-row: 2/3;
-            text-align: start;
-            padding: 20px;
+        .cards {
+             display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            gap: 10px;
+            width: 100%;
+            margin-top: 30px;
         }
     
-        .card3 {
-            background-color: #571212;
-            grid-column: 1/2;
-            grid-row: 2/3;
-            text-align: start;
-            padding: 20px;
-        }
+    .card1, .card2, .card3 {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #571212;
+    text-align: start;
+    padding: 20px;
+}
+
+.card-heading {
+    font-size: 1.8rem;
+    font-weight: 600;
+    color: white;
+}
+
+.card-content {
+    font-size: 1rem;
+    color: white;
+}
     </style>
     </header>
 
@@ -123,7 +125,7 @@
                     alt="" ;>
             </div>
         </div>
-    </div>
+   
 
 
 <div class="cards">
@@ -144,7 +146,7 @@
             with fully automatic weapons. </p>
         <p class="card-content">A world where voluntaryism and property rights are treated with the highest respect.</p>
     </div>
-    </div>
+     </div>
 
 
 
