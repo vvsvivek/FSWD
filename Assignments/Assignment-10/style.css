@@ -20,7 +20,7 @@
             grid-template-rows: auto;
             column-gap: 10px;
             row-gap: 30px;
-            margin: 10px;
+          
             background-color: #ff0000;
             font-family: 'Source Sans Pro';
         }
@@ -93,7 +93,14 @@
             color:#E98A8A;
             margin-top: 20px;
         }
-             
+        .page {
+            text-align: center;
+            color: #000000;
+            font-size: 2rem;
+            margin-top: 10px;
+            margin-bottom: 20px;
+            font-family:Arial, sans-serif;
+        } 
 
         @media (max-width: 768px) {
             .parent {
@@ -130,10 +137,4 @@
             }
         }
 
-        .next-page {
-            text-align: center;
-            font-size: 1.2rem;
-            font-weight: 600;
-            color: #000000;
-            margin-top: 20px;
-        }
+        
