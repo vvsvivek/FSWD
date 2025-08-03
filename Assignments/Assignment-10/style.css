@@ -4,7 +4,7 @@
             padding: 0;
         }
 
-        a {
+        .header a {
             text-decoration: none;
             color: #ff0000;
             font-size: 1.8rem;
@@ -93,15 +93,7 @@
             color:#E98A8A;
             margin-top: 20px;
         }
-        .page {
-           
-            text-align: center;
-            color: #000000;
-            font-size: 2rem;
-            margin-top: 10px;
-            margin-bottom: 20px;
-            font-family:Arial, sans-serif;
-        } 
+       
 
         @media (max-width: 768px) {
             .parent {
@@ -137,5 +129,14 @@
                 font-size: 0.9rem;
             }
         }
-
+         .page a {
+            text-decoration: none;
+            color: #181616;
+            text-align: center;
+            justify-content: space-between;
+            font-size: 2rem;
+            font-family: Arial, sans-serif;
+          
+        }
         
+ 
